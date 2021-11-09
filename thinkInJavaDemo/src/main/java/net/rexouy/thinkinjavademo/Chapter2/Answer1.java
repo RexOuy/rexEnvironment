@@ -1,4 +1,4 @@
-package Chapter2;
+package net.rexouy.thinkinjavademo.Chapter2;
 
 /**
  * 2.1
