@@ -1,5 +1,7 @@
 package net.rexouy.thinkinjavademo.Chapter4;
 
+import org.w3c.dom.ranges.Range;
+
 /**
  *  4-9
  *
@@ -11,33 +13,18 @@ public class Answer9 {
         int a = 1;
         int b = 1;
         int c = 0;
-        // 层数
-        int num = 1;
-        switch (num) {
-            case 1:
-                System.out.print(a+" ");
-            case 2:
-                System.out.print(b+" ");
-            case 3:
+        // 自定义的层数
+        int num = 11;
+
+        for(int i = 1;i<= num;i++) {
+            if (i<=2) {
+                System.out.print(1+" ");
+            } else {
                 c=a+b;
-                a=c;
+                a=b;
+                b=c;
                 System.out.print(c+" ");
-            case 4:
-                c=a+b;
-                a=c;
-                System.out.print(c+" ");
-            case 5:
-                c=a+b;
-                a=c;
-                System.out.print(c+" ");
-            case 6:
-                c=a+b;
-                a=c;
-                System.out.print(c+" ");
-            case 7:
-                c=a+b;
-                a=c;
-                System.out.print(c+" ");
+            }
         }
     }
 }
