@@ -1,6 +1,5 @@
 package net.rexouy.thinkinjavademo.Chapter4;
 
-import org.w3c.dom.ranges.Range;
 
 /**
  *  4-9
@@ -12,7 +11,7 @@ public class Answer9 {
     public static void main(String[] args) {
         int a = 1;
         int b = 1;
-        int c = 0;
+        int c;
         // 自定义的层数
         int num = 11;
 
