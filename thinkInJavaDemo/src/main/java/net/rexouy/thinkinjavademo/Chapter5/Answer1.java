@@ -11,6 +11,10 @@ public class Answer1 {
     Answer1() {
         System.out.println(value);
     }
+    // 借给5-8一个构造函数，与本题无关
+    Answer1(Answer8 answer8) {
+        System.out.println("get an answer8 value");
+    }
 
     public static void main(String[] args) {
         new Answer1();
